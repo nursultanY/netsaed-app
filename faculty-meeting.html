@@ -3,85 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Apply for a Meeting with University Faculty</title>
+  <title>Apply for a Meeting with Faculty</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="app-container">
-    <!-- Navigation Bar -->
     <nav class="navbar">
       <button class="nav-btn" onclick="window.location.href='index.html'">Home</button>
     </nav>
-
-    <!-- Main Content -->
     <div class="content">
-      <h1>Schedule a Faculty Meeting</h1>
-      <p class="description">
-        Explore programs and connect with faculty members at leading universities in Qatar to make informed decisions about your future.
-      </p>
-
-      <!-- Scheduling Form -->
-      <form class="scheduling-form">
-        <label for="name">Your Name</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required>
-
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-        <label for="university">Select University</label>
-        <select id="university" name="university" required>
-          <option value="" disabled selected>Choose a university</option>
-          <optgroup label="Education City Universities">
-            <option value="northwestern">Northwestern University in Qatar</option>
-            <option value="georgetown">Georgetown University in Qatar</option>
-            <option value="carnegie">Carnegie Mellon University in Qatar</option>
-            <option value="texas-am">Texas A&M University at Qatar</option>
-            <option value="weill-cornell">Weill Cornell Medicine-Qatar</option>
-            <option value="hbku">Hamad Bin Khalifa University</option>
-            <option value="vcuarts">VCUarts Qatar</option>
-          </optgroup>
-          <optgroup label="Other Qatari Universities">
-            <option value="qatari-university">Qatar University</option>
-            <option value="qatari-aeronautics">Qatar Aeronautical College</option>
-            <option value="community-college">Community College of Qatar</option>
-            <option value="lusiada-qatar">Lusail University</option>
-          </optgroup>
-        </select>
-
-        <label for="topic">Meeting Topic</label>
-        <textarea id="topic" name="topic" rows="4" placeholder="Enter the topic or purpose of the meeting" required></textarea>
-
-        <label for="date">Preferred Meeting Date</label>
-        <input type="date" id="date" name="date" required>
-
-        <label for="time">Preferred Time Slot</label>
-        <select id="time" name="time" required>
-          <option value="" disabled selected>Select a time</option>
-          <option value="morning">Morning (9:00 AM - 12:00 PM)</option>
-          <option value="afternoon">Afternoon (1:00 PM - 4:00 PM)</option>
-          <option value="evening">Evening (5:00 PM - 8:00 PM)</option>
-        </select>
-
-        <button type="submit" class="submit-btn">Schedule Meeting</button>
+      <h1>Schedule a Meeting with University Faculty</h1>
+      <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit" class="submit-btn">Submit</button>
       </form>
-
-      <!-- Featured Universities -->
-      <div class="featured-universities">
-        <h2>Partner Universities</h2>
-        <ul>
-          <li><strong>Northwestern University in Qatar</strong> – Journalism, Communication</li>
-          <li><strong>Georgetown University in Qatar</strong> – International Relations</li>
-          <li><strong>Carnegie Mellon University in Qatar</strong> – Computer Science, Business</li>
-          <li><strong>Weill Cornell Medicine-Qatar</strong> – Medicine</li>
-          <li><strong>Qatar University</strong> – Multiple Disciplines</li>
-        </ul>
-      </div>
     </div>
-
-    <!-- Footer -->
     <footer class="footer">
       <p>© 2024 NetSa'ed. All Rights Reserved.</p>
     </footer>
   </div>
 </body>
 </html>
+
