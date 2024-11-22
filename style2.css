@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* App Container */
+.app-container {
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #800000; /* Qatar Airways Maroon */
+  padding: 10px 15px;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.nav-btn {
+  background-color: #fff;
+  color: #800000;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: #660000;
+  color: #fff;
+}
+
+/* Content Section */
+.content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  overflow-y: auto;
+}
+
+/* Home Section Background */
+.home-section {
+  background: url('images/background.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.home-section p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 10px auto;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.home-section .button-group {
+  margin-top: 20px;
+}
+
+/* Tips Slider */
+.tips-slider {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.tips-slider h3 {
+  font-size: 18px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+#slider-text {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.action-btn {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  margin: 10px auto;
+  padding: 12px 20px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.action-btn:hover {
+  background-color: #218838;
+}
+
+.action-btn:active {
+  background-color: #1e7e34;
+}
+
+/* Footer */
+.footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #777;
+}
