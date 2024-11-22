@@ -86,13 +86,13 @@ window.onload = function() {
     alert("Scheduling a Meeting with University Faculty...");
   }
   function applyRealWorldExperience() {
-    window.location.href = 'file:///C:/Users/user/OneDrive/Desktop/my-app/real-world-experience.html'; // Navigate to Real-World Experience Page
+    window.location.href = 'real-world-experience.html'; // Navigate to Real-World Experience Page
   }
   
   function viewAvailableJobs() {
-    window.location.href = 'file:///C:/Users/user/OneDrive/Desktop/my-app/job-experiences.html'; // Navigate to Job Experiences Page
+    window.location.href = 'job-experiences.html'; // Navigate to Job Experiences Page
   }
   
   function scheduleMeeting() {
-    window.location.href = 'file:///C:/Users/user/OneDrive/Desktop/my-app/faculty-meeting.html'; // Navigate to Faculty Meeting Page
+    window.location.href = 'faculty-meeting.html'; // Navigate to Faculty Meeting Page
   }
