@@ -58,7 +58,7 @@ body {
 
 /* Home Section Background */
 .home-section {
-  background: url('background.jpg.jpg') no-repeat center center/cover;
+  background: url('images/background.jpg.jpg') no-repeat center center/cover;
   color: #fff;
   text-align: center;
   padding: 20px;
